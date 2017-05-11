@@ -3,8 +3,53 @@
 <head>
 	<meta charset="utf-8">
 	<title>Psychic Game(Basic)</title>
+	<!-- Custom Reset -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<!-- Bootstrap Core CSS -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
+<header id="headmaster">
+	<h1>The Psychic Game</h1>
+</header>
+<div id="main" class="container">
+	<h2>Guess what letter I'm thinking of</h2>
+	<div class="row">
+		<div class="col-md-4">
+			<img id="psychic-image" src="assets/images/Psychic.jpg" class="thumbnail" alt="...">
+		</div>
+		<div class="col-md-2">
+			<div id="psychic">
+				<ul class="list-group">
+  					<li class="list-group-item" id="wins">Wins:</li>
+  					<li class="list-group-item" id="lose">Losses:</li>
+  					<li class="list-group-item" id="guessesLeft">Guesses Left:</li>
+  					<li class="list-group-item" id="letter">Your Guesses so far:</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<img id="psychics-image" src="assets/images/Psychics.jpg" class="thumbnail" alt="...">
+		</div>
+	</div>
+</div>
 
+<footer>
+	<div class="row">
+		<div class="col-lg-12">
+			<p>&copy;Copyright 2017 Kristen Bowen</p>
+		</div>
+	</div>
+</footer>
+
+<!-- Javascript game.js -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
