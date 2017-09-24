@@ -30,4 +30,5 @@ In this assignment, you'll create one of two possible computer games: Hangman or
 
 4. Push your selected game to Github Pages.
 
+
 <img width="800" height="500" alt="game" src="https://kbowen200247.github.io/Psychic-Game/images/the_psychic_game.png">
