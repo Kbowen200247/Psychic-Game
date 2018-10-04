@@ -25,6 +25,7 @@ countGuessesLeft();
 var restart = function() {
 	guessesLeft = 9;
 	letterUser = [];
+	var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 }
 
 // When the user presses a key, it will run the following function..
